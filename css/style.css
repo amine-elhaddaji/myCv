@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body {
+  background: lightgray;
+
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.wrapper {
+  display: flex;
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  background: #fff;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin: 50px;
+} */
+
+body {
+  background: lightgray;
+
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.wrapper {
+  display: flex;
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  background: #fff;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin: 50px;
+  margin-left: 16%;
+}
+
+.body footer {
+  display: flex;
+  position: relative;
+  grid-template-columns: 1fr;
+}
+.wrapper .left-side {
+  position: relative;
+  background: rgb(46, 33, 102);
+  padding: 40px;
+}
+
+.wrapper .right-side {
+  position: relative;
+  background: #fff;
+  padding: 40px;
+}
+
+.profil-text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  /* border-bottom: 1px solid white; */
+}
+
+img {
+  display: flex;
+
+  position: relative;
+  margin-left: 10%;
+  width: 200px;
+  height: 200px;
+
+  border-radius: 50%;
+}
+
+.profil {
+  position: relative;
+
+  padding: 20px 0px 0px 0px;
+}
+
+.profil h2 {
+  background: white;
+  color: rgb(46, 33, 102);
+  font-style: oblique;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+.profil ul {
+  color: white;
+}
+
+.contact-Info {
+  list-style: none;
+  padding: 10px;
+}
+
+.contact-Info a {
+  color: white;
+}
+
+.contact-Info .contact-text {
+  text-align: center;
+  padding-left: 5px;
+}
+.profilInfo {
+  padding: 10px;
+}
+.competenceInfo {
+  padding: 10px;
+}
+.softSkillInfo {
+  padding: 10px;
+}
+.languesInfo {
+  padding: 10px;
+}
+.loisirsInfo {
+  padding: 10px;
+}
+
+/* The right side */
+
+.right-side h2 {
+  text-align: center;
+  font-style: bolder;
+  color: rgb(46, 33, 102);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 35px;
+  padding-top: 15%;
+
+  /* padding: 5%; */
+  font-weight: bolder;
+}
+.about {
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+.right-side h3 {
+  color: rgb(46, 33, 102);
+  font-style: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bolder;
+
+  padding-top: 20px;
+}
+.titles {
+  color: rgb(48, 34, 112);
+  padding-top: 10px;
+  font-weight: bold;
+}
+.notlist {
+  list-style: none;
+}
+
+.experiences-extrascolaire h3 {
+  padding-bottom: 10px;
+}
+.contenu-right {
+  padding-bottom: 5%;
+  border-bottom: 1px solid rgb(46, 33, 102);
+}
+
+.right-side article {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.footer-icon {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-left: 4%;
+
+  padding-bottom: 2%;
+  padding-left: 23%;
+}
+
+.contact-links {
+  width: 30%;
+}
+
+/* The button */
+
+.show img {
+  height: 4mm;
+  width: 4mm;
+}
