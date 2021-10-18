@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
     integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./script.js"></script>
 
   <!--[if lt IE 9]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]--
@@ -27,7 +28,7 @@
     <div class="left-side" itemscope itemtype="https://schema.org/Person">
       <div class="profil-text">
         <div class="photo-profil">
-          <img src="images/Photo identité.jpg" alt="Photo de El-haddaji Med Amine" />
+          <img class="photoProf" src="images/Photo identité.jpg" alt="Photo de El-haddaji Med Amine" />
         </div>
         <section class="profil" >
           <h2>Profil</h2>
@@ -54,7 +55,7 @@
 
             <li>
               <span class="icon">
-                <i class="fa fa-envelope" aria-hidden="true" itemprop="email">Email><a href="mailto:amineelhaddaji12@gmail.com"
+                <i class="fa fa-envelope" aria-hidden="true" itemprop="email">Email<a href="mailto:amineelhaddaji12@gmail.com"
                     target="_blank">
                     amineelhaddaji12@gmail.com</a></i>
               </span>
@@ -73,17 +74,73 @@
             </li>
           </ul>
         </div>
+       
+
         <section class="profil">
           <h2>Compétences</h2>
           <ul class="competenceInfo">
-            <li>Front-end : Javascript/ReactJs, HTML5, CSS3</li>
-            <li>Back-end:Java/JEE ,PHP/Laravel</li>
-            <li>Gestion: Git</li>
-            <li>Base de données: SQL, MySQL, Oracle</li>
-            <li>Conception:UML ,Merise</li>
-            <li>Langage de programmation: C, C++, C#/.Net</li>
+            <section class="tooltip" >
+            <li>Front-end : Javascript/ReactJs, HTML5, CSS3 <span class="tooltiptext">Front-end : Javascript/ReactJs, HTML5, CSS3</span></li>
+            <img src="./images/emptyStar.png" id='FrontEnd1' onclick="rate(1,'FrontEnd')" />
+            <img src="./images/emptyStar.png" id='FrontEnd2' onclick="rate(2,'FrontEnd')" />
+            <img src="./images/emptyStar.png" id='FrontEnd3' onclick="rate(3,'FrontEnd')" />
+            <img src="./images/emptyStar.png" id='FrontEnd4' onclick="rate(4,'FrontEnd')" />
+            <img src="./images/emptyStar.png" id='FrontEnd5' onclick="rate(5,'FrontEnd')" />  
+          </section>
+           
+            <section class="tooltip" >
+            <li>Back-end:Java/JEE ,PHP/Laravel<span class="tooltiptext">Back-end:Java/JEE ,PHP/Laravel</span></li>
+            <img src="./images/emptyStar.png" id='BackEnd1' onclick="rate(1,'BackEnd')" />
+            <img src="./images/emptyStar.png" id='BackEnd2' onclick="rate(2,'BackEnd')" />
+            <img src="./images/emptyStar.png" id='BackEnd3' onclick="rate(3,'BackEnd')" />
+            <img src="./images/emptyStar.png" id='BackEnd4' onclick="rate(4,'BackEnd')" />
+            <img src="./images/emptyStar.png" id='BackEnd5' onclick="rate(5,'BackEnd')" />
+          </section><br>
+            
+            
+            <section class="tooltip" >
+            <li>Gestion: Git <span class="tooltiptext">Gestion: Git</span> </li>
+            <img src="./images/emptyStar.png" id='git1' onclick="rate(1,'git')" />
+            <img src="./images/emptyStar.png" id='git2' onclick="rate(2,'git')" />
+            <img src="./images/emptyStar.png" id='git3' onclick="rate(3,'git')" />
+            <img src="./images/emptyStar.png" id='git4' onclick="rate(4,'git')" />
+            <img src="./images/emptyStar.png" id='git5' onclick="rate(5,'git')" />
+          </section><br>
+
+
+          <section class="tooltip" >
+            <li>Base de données: SQL, MySQL, Oracle <span class="tooltiptext">Base de données: SQL, MySQL, Oracle</span></li>
+            <img src="./images/emptyStar.png" id='gdbc1' onclick="rate(1,'gdbc')" />
+            <img src="./images/emptyStar.png" id='gdbc2' onclick="rate(2,'gdbc')" />
+            <img src="./images/emptyStar.png" id='gdbc3' onclick="rate(3,'gdbc')" />
+            <img src="./images/emptyStar.png" id='gdbc4' onclick="rate(4,'gdbc')" />
+            <img src="./images/emptyStar.png" id='gdbc5' onclick="rate(5,'gdbc')" />
+          </section><br>
+
+
+          <section class="tooltip" >
+            <li>Conception:UML ,Merise <span class="tooltiptext">Conception:UML ,Merise</span></li>
+            <img src="./images/emptyStar.png" id='conception1' onclick="rate(1,'conception')" />
+            <img src="./images/emptyStar.png" id='conception2' onclick="rate(2,'conception')" />
+            <img src="./images/emptyStar.png" id='conception3' onclick="rate(3,'conception')" />
+            <img src="./images/emptyStar.png" id='conception4' onclick="rate(4,'conception')" />
+            <img src="./images/emptyStar.png" id='conception5' onclick="rate(5,'conception')" />
+            
+          </section><br>
+
+
+          <section class="tooltip" >
+            <li>Langage de programmation: C, C++, C#/.Net <span class="tooltiptext">Langage de programmation: C, C++, C#/.Net</span></li>
+            <img src="./images/emptyStar.png" id='programation1' onclick="rate(1,'programation')" />
+            <img src="./images/emptyStar.png" id='programation2' onclick="rate(2,'programation')" />
+            <img src="./images/emptyStar.png" id='programation3' onclick="rate(3,'programation')" />
+            <img src="./images/emptyStar.png" id='programation4' onclick="rate(4,'programation')" />
+            <img src="./images/emptyStar.png" id='programation5' onclick="rate(5,'programation')" />
+          </section>
+
           </ul>
         </section>
+     
         <section class="profil">
           <h2>Soft Skills</h2>
           <ul class="softSkillInfo">
@@ -134,9 +191,10 @@
       <section class="contenu-right">
         <h3>FORMATIONS</h3>
 
-        <ul>
+        
           <li class="titles">
-            Université de Bretagne occidentale de Brest : 
+            Université de Bretagne occidentale de Brest : <button class="show"
+              onclick="showInfo('form1') ">Show</button>
           </li>
           <div style="display: none;" id="form1">
             <ul class="notlist">
@@ -147,17 +205,20 @@
             </ul>
           </div>
           <li class="titles">
-            École Nationale des Sciences Appliquées de Tanger : 
+            École Nationale des Sciences Appliquées de Tanger : <button class="show"
+              onclick="showInfo('form2')">Show</button>
           </li>
-          <div id="form2">
+          <div id="form2" style="display: none;">
             <ul class="notlist">
               <li>2019/Présent - Cycle d'ingénieur Génie informatique.</li>
               <li>2017/2019 - Cycle préparatoire.</li>
             </ul>
           </div>
-          <li class="titles">2017 - Lycée Ibn Khatib Tanger :
+          
+          <li class="titles">2017 - Lycée Ibn Khatib Tanger : <button class="show" onclick="showInfo('form3')">Show</button>
           </li>
-          <ul class="notlist">
+
+          <ul  id="form3" style="display: none;"class="notlist">
             <li>
               Baccalauréat en Sciences Physiques et Chimie : Mention très
               bien.
@@ -171,17 +232,20 @@
 
         <div>
           <ul>
+
             <li class="titles">
               Juillet - aout 2020 : Stage d'initiation - Société Tangeroise de
-              Maintenance :
+              Maintenance :<button class="show" onclick="showInfo('form4') ">Show</button>
             </li>
 
-            <ul>
+
+            <ul id="form4" style="display: none;">
               <li>
                 Mise en place d'une application Web pour la prise des
                 rendez-vous.
               </li>
               <li>Environnement de travail :</li>
+              
               <ul class="notlist">
                 <ul>
                   Back-End : Java/JEE.
@@ -199,16 +263,17 @@
             </ul>
 
             <li class="titles">
-              Juin - juillet 2019 : Job d'été - Tingis Group Call Center :
+              Juin - juillet 2019 : Job d'été - Tingis Group Call Center :<button class="show"
+                onclick="showInfo('form5') ">Show</button>
             </li>
-            <ul>
+            <ul id="form5" style="display: none;">
               <li>Vente téléphoniques des services de Solusia Assurance.</li>
               <li>
                 Enquête de satisfaction et prospection de nouveaux clients.
               </li>
             </ul>
           </ul>
-        </div>
+
       </section>
       <section class="contenu-right">
         <h3>PROJET ACADÉMIQUES</h3>
@@ -254,6 +319,8 @@
       </section>
     </div>
   </div>
+
+
 
 
 
