@@ -5,7 +5,7 @@ const dispalyCases = {
     block: "block",
     none: "none",
 };
-
+// start manupulation
 let idsList = ['form1','form2','form3','form4','form5'];
 
 const showInfo = (id) => {
